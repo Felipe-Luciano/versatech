@@ -1,0 +1,32 @@
+.section {
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--gray-100);
+    
+}
+
+.section .content {
+    padding: 0 4rem;
+    min-width: 600px;
+}
+
+.content h1 {
+    font-size: 3rem;
+    line-height: 1.4;
+    font-family: 'FMBolyarSansProRegular', sans-serif;
+    margin-bottom: 1rem;
+    color: var(--gray-600);
+}
+
+.content p {
+    font-size: 1rem;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.equipamentCalibrationImg {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

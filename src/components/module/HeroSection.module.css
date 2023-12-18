@@ -1,0 +1,51 @@
+.backgroundImage {
+    margin-top: -5rem;
+    background: no-repeat linear-gradient( 0.25turn, rgba(0,0,0,0.8), rgb(16, 80, 144, 0.7) ), url('../../assets/medicalDeviceBackground.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.backgroundImage .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    padding: 0 4rem;
+}
+
+.content h1 {
+    font-size: 6rem;
+    background: linear-gradient(0.25turn, rgb(16, 80, 144, 1) 0 5% ,rgba(27, 131, 194, 1) 40% 100% );
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'FMBolyarSansProRegular', sans-serif;
+}
+
+.content p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: 0.8rem;
+    color: var(--gray-300);
+}
+
+.content button {
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    border-radius: 8px; 
+    border: 0;
+    background: var(--blue-600);
+    color: var(--gray-600);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.content button:hover {
+    background: transparent;
+    color: var(--gray-300);
+    border: 0.1rem solid var(--blue-600);
+    transition: 0.3s ease-in-out;
+}

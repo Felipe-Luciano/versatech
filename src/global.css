@@ -1,0 +1,49 @@
+:root {
+  --white: #ffffff;
+  --gray-100: #e1e1e6;
+  --gray-300: #c4c4cc; 
+  --gray-600: #323238;
+  --gray-700: #29292e;
+  --gray-800: #202024;
+  --gray-900: #121214;
+  
+  --blue-600: #1b83c2;
+  --blue-900: #105090;
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--blue-600);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--gray-100);
+  color: var(--gray-800);
+  -webkit-font-smoothing: antialiased; 
+  overflow-x: hidden;
+}
+
+body, input, textarea, button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+@font-face {
+  font-family: "FMBolyarSansProBold";
+  src: local("FMBolyarSansPro-700"),
+   url("./fonts/FMBolyarSansPro-700.ttf") format("truetype");
+  font-weight: bold;
+ }
+
+ @font-face {
+  font-family: "FMBolyarSansProRegular";
+  src: local("FMBolyarSansPro-400"),
+   url("./fonts/FMBolyarSansPro-400.ttf") format("truetype");
+ }
